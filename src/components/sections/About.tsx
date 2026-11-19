@@ -33,25 +33,27 @@ export default function About() {
           number="02"
           label="About me"
           title="Good design meets great engineering."
-          description="I enjoy building products where thoughtful design and solid engineering work together."
+          description="I build enterprise web applications with a focus on real-time data, usability, and performance."
         />
 
         <div className="grid gap-14 md:grid-cols-[1.1fr_0.9fr]">
           <Reveal>
             <div className="space-y-6 text-base leading-8 text-muted">
               <p>
-                I'm a frontend developer with 3–5 years of experience building modern web
-                applications and creating meaningful user experiences.
+                I'm a frontend engineer with 4+ years of experience developing enterprise scale
+                applications with Angular and AngularJS. At Faraabeen, I work on real-time
+                communication network monitoring systems.
               </p>
 
               <p>
-                My approach combines attention to visual detail with an engineering mindset. I care
-                about code quality, accessibility, performance, and maintainable architecture.
+                I build KPI dashboards, dynamic and customizable interfaces, and reliable live data
+                experiences. My work includes performance optimization, API integration, and
+                collaboration with backend and network engineers.
               </p>
 
               <p>
-                I'm always interested in challenging problems, learning new technologies, and
-                collaborating with people who care about building great products.
+                My core toolkit includes Angular, TypeScript, RxJS, JavaScript, SCSS, Syncfusion,
+                and Highcharts. I also have practical experience with React and Next.js.
               </p>
             </div>
           </Reveal>

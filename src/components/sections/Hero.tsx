@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="mb-8 flex items-center gap-3">
             <span className="accent-dot" />
             <span className="text-xs uppercase tracking-[0.2em] text-muted sm:text-sm">
-              Frontend Developer · Open to opportunities
+              Frontend Engineer · Open to opportunities
             </span>
           </div>
         </Reveal>
@@ -33,8 +33,9 @@ export default function Hero() {
 
         <Reveal delay={0.2}>
           <p className="mt-9 max-w-xl text-base leading-8 text-muted md:text-lg">
-            I'm a frontend developer with 3–5 years of experience creating performant, accessible,
-            and scalable web applications. I turn complex ideas into intuitive digital experiences.
+            I'm a frontend engineer with 4+ years of experience building enterprise scale Angular
+            applications, real time dashboards, and responsive interfaces. I focus on performance,
+            reusable components, and clear, dependable user experiences.
           </p>
         </Reveal>
 
@@ -65,7 +66,7 @@ export default function Hero() {
         <Reveal delay={0.4}>
           <div className="mt-14 flex items-center gap-5">
             <Link
-              href="https://github.com/"
+              href="https://github.com/elham-s95"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -75,7 +76,7 @@ export default function Hero() {
             </Link>
 
             <Link
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/eli-shojaei"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -86,7 +87,7 @@ export default function Hero() {
 
             <span className="h-5 w-px bg-border" />
 
-            <span className="text-xs text-muted">Based in Germany · Available worldwide</span>
+            <span className="text-xs text-muted">Based in Iran-Yazd.</span>
           </div>
         </Reveal>
 

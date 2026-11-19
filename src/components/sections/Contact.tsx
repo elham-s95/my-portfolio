@@ -30,7 +30,7 @@ export default function Contact() {
               </p>
 
               <Link
-                href="mailto:your.email@example.com"
+                href="mailto:eli.shojaei.95@gmail.com"
                 className="mt-9 inline-flex items-center gap-3 rounded-full bg-accent px-7 py-4 text-sm font-semibold text-background transition-transform hover:scale-105"
               >
                 Get in touch
@@ -39,7 +39,7 @@ export default function Contact() {
 
               <div className="mt-12 flex flex-wrap gap-6 border-t border-border pt-8">
                 <Link
-                  href="mailto:your.email@example.com"
+                  href="mailto:eli.shojaei.95@gmail.com"
                   className="flex items-center gap-2 text-sm text-muted transition-colors hover:text-accent"
                 >
                   <Mail size={17} />
@@ -47,7 +47,7 @@ export default function Contact() {
                 </Link>
 
                 <Link
-                  href="https://github.com/"
+                  href="https://github.com/elham-s95"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-muted transition-colors hover:text-accent"
@@ -57,7 +57,7 @@ export default function Contact() {
                 </Link>
 
                 <Link
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/eli-shojaei"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-muted transition-colors hover:text-accent"

@@ -5,28 +5,16 @@ import SectionHeading from '@/components/ui/SectionHeading';
 const experiences = [
   {
     role: 'Frontend Developer',
-    company: 'Company Name',
-    period: '2024 — Present',
-    location: 'Germany / Remote',
+    company: 'Faraabeen · Development of Communication Networks & Industrial Smart Systems',
+    period: 'Mar 2022 — Present',
+    location: 'Yazd, Iran',
     description:
-      'Developing and maintaining modern web applications, collaborating with designers and backend engineers, and improving application usability and performance.',
+      'Developing and maintaining enterprise scale Angular applications for real-time communication network monitoring.',
     achievements: [
-      'Built reusable UI components.',
-      'Improved frontend architecture and maintainability.',
-      'Collaborated on responsive interfaces and API integrations.',
-    ],
-  },
-  {
-    role: 'Junior Frontend Developer',
-    company: 'Previous Company',
-    period: '2022 — 2024',
-    location: 'Location',
-    description:
-      'Worked on frontend development, user interface implementation, and integration with backend services.',
-    achievements: [
-      'Implemented responsive web interfaces.',
-      'Worked with REST APIs.',
-      'Maintained and improved existing features.',
+      'Built interactive KPI dashboards with Highcharts to support operational decisions.',
+      'Created dynamic theming and customizable components with Syncfusion Angular.',
+      'Reduced rendering latency and load times, and improved realtime metric accuracy.',
+      'Integrated APIs with backend and network engineering teams.',
     ],
   },
 ];

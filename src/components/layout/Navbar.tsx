@@ -16,7 +16,7 @@ export default function Navbar() {
         className="container-main flex min-h-[76px] items-center justify-between gap-4"
       >
         <Link href="/" className="text-xl font-bold tracking-tight">
-          YOURNAME<span className="text-accent">.</span>
+          Elham Shojaei<span className="text-accent">.</span>
         </Link>
 
         <div className="flex items-center gap-4 sm:gap-7">

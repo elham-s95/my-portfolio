@@ -4,15 +4,15 @@ import SectionHeading from '@/components/ui/SectionHeading';
 const skillGroups = [
   {
     title: 'Frontend',
-    skills: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'HTML5', 'CSS3'],
+    skills: ['Angular 10+', 'AngularJS', 'TypeScript', 'RxJS', 'JavaScript ES6+', 'React', 'Next.js'],
   },
   {
-    title: 'Styling & UI',
-    skills: ['Tailwind CSS', 'SCSS', 'Responsive Design', 'CSS Animations', 'Accessibility'],
+    title: 'UI & Visualization',
+    skills: ['Angular Material', 'Syncfusion', 'Highcharts', 'SCSS / SASS', 'Responsive Design'],
   },
   {
     title: 'Tools & Workflow',
-    skills: ['Git', 'GitHub', 'REST APIs', 'Figma', 'npm', 'ESLint'],
+    skills: ['REST APIs', 'Angular HTTP Client', 'State Management', 'Git', 'npm', 'ESLint', 'Prettier', 'Figma'],
   },
 ];
 

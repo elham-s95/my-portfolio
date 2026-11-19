@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Elham Shojaei — Frontend Engineer Portfolio
 
-## Getting Started
+A responsive portfolio website showcasing Elham Shojaei's frontend engineering experience, skills, selected projects, and contact information. Built with Next.js, React, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Features
+
+- Portfolio sections for projects, about, skills, experience, and contact
+- Individual project detail pages
+- Responsive layout with motion-based reveal effects
+- Downloadable resume at [`public/resume.pdf`](public/resume.pdf)
+- Direct email, LinkedIn, and GitHub links
+
+## Tech stack
+
+- [Next.js 16](https://nextjs.org/) with the App Router
+- [React 19](https://react.dev/) and [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [Motion](https://motion.dev/) for animation
+- [Lucide](https://lucide.dev/) icons
+
+## Getting started
+
+### Requirements
+
+- Node.js (current LTS recommended)
+- npm (a `package-lock.json` is included)
+
+### Install and run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site. The page refreshes as you edit source files.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Create a production build |
+| `npm run start` | Serve the production build locally |
+| `npm run lint` | Run ESLint |
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+src/
+├── app/                   # App Router pages, layout, and global styles
+├── components/
+│   ├── layout/             # Navbar and footer
+│   ├── sections/           # Portfolio page sections
+│   └── ui/                 # Shared presentation components
+└── data/projects.ts        # Project portfolio content
+public/
+└── resume.pdf              # Downloadable resume
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Updating portfolio content
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Edit section copy and experience in `src/components/sections/`.
+- Update the project list in `src/data/projects.ts`.
+- Replace `public/resume.pdf` to publish an updated resume.
+- Update social and contact URLs in the Hero and Contact components when profiles change.
 
-## Deploy on Vercel
+## Production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Build and run the production site with:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm run start
+```
+
+The project can be deployed to any platform that supports Next.js. See the [Next.js deployment guide](https://nextjs.org/docs/app/building-your-application/deploying).
